@@ -1,0 +1,78 @@
+.edit-page-wrapper {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.edit-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 650px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.edit-header {
+  background: #f1f5f9;
+  padding: 24px 30px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.edit-form-body {
+  background-color: #ffffff;
+}
+
+/* Input Fields Styling (Soft UI) */
+.premium-input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1.5px solid #e2e8f0;
+  background-color: #f8fafc;
+  font-size: 15px;
+  color: #0f172a;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.premium-input:focus {
+  background-color: #ffffff;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+  outline: none;
+}
+
+.form-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.btn-dark {
+  background-color: #0f172a;
+  border-radius: 12px;
+  transition: all 0.2s;
+}
+
+.btn-dark:hover {
+  background-color: #1e293b;
+  transform: translateY(-2px);
+}
+
+.btn-light {
+  background-color: #f1f5f9;
+  border-color: #e2e8f0;
+  border-radius: 12px;
+  color: #64748b;
+}
+
+.btn-light:hover {
+  background-color: #e2e8f0;
+  color: #0f172a;
+}
